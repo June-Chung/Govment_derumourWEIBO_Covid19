@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c81f6ea-ae5e-4872-8b52-bc1a42ff1636" name="Default Changelist" comment="">
+    <list default="true" id="4c81f6ea-ae5e-4872-8b52-bc1a42ff1636" name="Default Changelist" comment="删除多余文件1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/relevance.py" beforeDir="false" afterPath="$PROJECT_DIR$/relevance.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/微博与评论/中国长安网的副本/文本相似度2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/微博与评论/中国长安网的副本/文本相似度2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/微博与评论/亚布力人民检察的副本/文本相似度2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/微博与评论/亚布力人民检察的副本/文本相似度2.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -142,34 +139,6 @@
             <path>
               <item name="辟谣微博分析" type="b2602c69:ProjectViewProjectNode" />
               <item name="辟谣微博分析" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="辟谣微博分析" type="b2602c69:ProjectViewProjectNode" />
-              <item name="辟谣微博分析" type="462c0819:PsiDirectoryNode" />
-              <item name="微博与评论" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="辟谣微博分析" type="b2602c69:ProjectViewProjectNode" />
-              <item name="辟谣微博分析" type="462c0819:PsiDirectoryNode" />
-              <item name="微博与评论" type="462c0819:PsiDirectoryNode" />
-              <item name="上海网警的副本" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="辟谣微博分析" type="b2602c69:ProjectViewProjectNode" />
-              <item name="辟谣微博分析" type="462c0819:PsiDirectoryNode" />
-              <item name="微博与评论" type="462c0819:PsiDirectoryNode" />
-              <item name="中国长安网的副本" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="辟谣微博分析" type="b2602c69:ProjectViewProjectNode" />
-              <item name="辟谣微博分析" type="462c0819:PsiDirectoryNode" />
-              <item name="微博与评论" type="462c0819:PsiDirectoryNode" />
-              <item name="亚布力人民检察的副本" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="辟谣微博分析" type="b2602c69:ProjectViewProjectNode" />
-              <item name="辟谣微博分析" type="462c0819:PsiDirectoryNode" />
-              <item name="情感识别数据" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -392,6 +361,21 @@
       <option name="presentableId" value="Default" />
       <updated>1589983119548</updated>
     </task>
+    <task id="LOCAL-00001" summary="&quot;增加不同辟谣类型的平均认知程度计算&quot;">
+      <created>1615111940012</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1615111940012</updated>
+    </task>
+    <task id="LOCAL-00002" summary="删除多余文件1">
+      <created>1615112389202</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1615112389202</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -405,21 +389,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4969325" visible="true" weight="0.14134742" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4969325" visible="true" weight="0.20475562" />
       <window_info id="Structure" order="1" sideWeight="0.5030675" side_tool="true" weight="0.21928665" />
       <window_info id="Favorites" order="2" sideWeight="0.5008375" side_tool="true" weight="0.21928665" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32964823" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993395" visible="true" weight="0.43342775" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993395" weight="0.43342775" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.37978864" weight="0.62322944" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32956153" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5006605" side_tool="true" weight="0.43342775" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.62021136" side_tool="true" weight="0.62322944" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32956153" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -444,6 +427,21 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;增加不同辟谣类型的平均认知程度计算&quot;" />
+    <MESSAGE value="删除多余文件1" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除多余文件1" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/微博与评论/司法部的副本/文本相似度.txt">
