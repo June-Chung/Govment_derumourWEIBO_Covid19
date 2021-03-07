@@ -1,8 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c81f6ea-ae5e-4872-8b52-bc1a42ff1636" name="Default Changelist" comment="删除多余文件1">
+    <list default="true" id="4c81f6ea-ae5e-4872-8b52-bc1a42ff1636" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/上海网警的副本/2515717171.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/上海网警的副本/2515717171.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/上海网警的副本/上海网警的副本tempcomment/IroLyjvgK.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/上海网警的副本/上海网警的副本tempcomment/IsFLNoUeu.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/上海网警的副本/上海网警的副本tempcomment/IsmNC4RXA.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/上海网警的副本/上海网警的副本tempcomment/ItSDSlARr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/上海网警的副本/上海网警的副本tempcomment/ItSpnd5EP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/上海网警的副本/上海网警的副本tempcomment/ItrFo1alT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/上海网警的副本/上海网警的副本tempcomment/IuO4NvEBV.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/上海网警的副本/上海网警的副本tempcomment/IvF8Ns6Sd.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/上海网警的副本/上海网警的副本tempcomment/J6IIZ0Rnn.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/上海网警的副本/上海网警的副本tempcomment/评论情感值.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/上海网警的副本/情感值.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/上海网警的副本/文本相似度.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/上海网警的副本/粉丝评论点赞.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/emeotion.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/微博评论情感分析.py" beforeDir="false" afterPath="$PROJECT_DIR$/微博评论情感分析.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/情感数据.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/情感识别逐条.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/补充/共青团中央的副本/3937348351.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/补充/共青团中央的副本/共青团中央.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/补充/共青团中央的副本/共青团中央2.txt.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/补充/共青团中央的副本/共青团中央的副本tempcomment/IF8XthtQZ.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/补充/共青团中央的副本/共青团中央的副本tempcomment/IFiVEot4l.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/补充/共青团中央的副本/共青团中央的副本tempcomment/Ir64dChZA.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/补充/共青团中央的副本/共青团中央的副本tempcomment/Ir7Iej6GF.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/补充/共青团中央的副本/共青团中央的副本tempcomment/IrQKmwdbD.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/补充/共青团中央的副本/共青团中央的副本tempcomment/IrU7FniPZ.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/补充/共青团中央的副本/共青团中央的副本tempcomment/Irq8wozPg.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/补充/共青团中央的副本/共青团中央的副本tempcomment/IsDgV5o7i.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/补充/共青团中央的副本/共青团中央的副本tempcomment/IsESn79cx.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/补充/共青团中央的副本/共青团中央的副本tempcomment/IsFjeguGJ.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/补充/共青团中央的副本/共青团中央的副本tempcomment/IsGsz7INg.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/补充/共青团中央的副本/共青团中央的副本tempcomment/IsMtb0z2x.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/补充/共青团中央的副本/共青团中央的副本tempcomment/IsVXkdZel.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/补充/共青团中央的副本/共青团中央的副本tempcomment/IsZwxcr2c.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/补充/共青团中央的副本/共青团中央的副本tempcomment/IstxL84TS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/补充/共青团中央的副本/共青团中央的副本tempcomment/IsuC3pHhp.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/补充/共青团中央的副本/共青团中央的副本tempcomment/IsuWBx6Bt.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/补充/共青团中央的副本/共青团中央的副本tempcomment/IsvYIbMw7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/补充/共青团中央的副本/共青团中央的副本tempcomment/IswmesMiC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/补充/共青团中央的副本/共青团中央的副本tempcomment/It4nuCrD3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/补充/共青团中央的副本/共青团中央的副本tempcomment/ItHVhscqU.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/补充/共青团中央的副本/共青团中央的副本tempcomment/ItKSTyUTJ.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/补充/共青团中央的副本/共青团中央的副本tempcomment/Iu8zmx1Ez.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/补充/共青团中央的副本/共青团中央的副本tempcomment/IurUc2RhN.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/补充/共青团中央的副本/共青团中央的副本tempcomment/IutgNCA51.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/补充/共青团中央的副本/共青团中央的副本tempcomment/Iv6GN33mP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/补充/共青团中央的副本/共青团中央的副本tempcomment/IvOu82WR5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/补充/共青团中央的副本/共青团中央的副本tempcomment/IvS508g9S.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/补充/共青团中央的副本/共青团中央的副本tempcomment/IwI3Cpsbk.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/补充/共青团中央的副本/共青团中央的副本tempcomment/IxNuLqsjJ.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/补充/共青团中央的副本/共青团中央的副本tempcomment/IzG6tkgie.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/补充/共青团中央的副本/共青团中央的副本tempcomment/Izmq8joFQ.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/补充/共青团中央的副本/共青团中央的副本tempcomment/J1rxCcA6z.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/补充/共青团中央的副本/共青团中央的副本tempcomment/J6N5YnVRj.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/补充/共青团中央的副本/共青团中央的副本tempcomment/J7ll3siuF.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/补充/共青团中央的副本/共青团中央的副本tempcomment/JbF5Ngggi.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/补充/共青团中央的副本/共青团中央的副本tempcomment/JfGM4iuIu.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/补充/共青团中央的副本/共青团中央的副本tempcomment/JlLXanPew.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/补充/共青团中央的副本/共青团中央的副本tempcomment/Jlmdri2fS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/补充/共青团中央的副本/共青团中央的副本tempcomment/评论情感值.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/补充/共青团中央的副本/情感值.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,11 +114,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/微博与评论/亚布力人民检察的副本/文本相似度2.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+            <state relative-caret-position="259">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/微博评论情感分析.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="259">
+              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#22#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/调整文本相似度.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="333">
+              <caret line="69" column="31" selection-start-line="69" selection-start-column="31" selection-end-line="69" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+                <element signature="e#121#2055#0" />
+                <element signature="e#2077#2806#0" />
+                <element signature="e#2845#8345#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -112,13 +203,13 @@
         <option value="$PROJECT_DIR$/微博与评论/中国长安网的副本/情感值.txt" />
         <option value="$PROJECT_DIR$/微博与评论/亚布力人民检察的副本/情感值.txt" />
         <option value="$PROJECT_DIR$/调整文本相似度.py" />
-        <option value="$PROJECT_DIR$/微博评论情感分析.py" />
         <option value="$PROJECT_DIR$/微博与评论/中国长安网的副本/粉丝评论点赞.txt" />
         <option value="$PROJECT_DIR$/微博与评论/亚布力人民检察的副本/粉丝评论点赞.txt" />
         <option value="$PROJECT_DIR$/上课临时.py" />
         <option value="$PROJECT_DIR$/relevance.py" />
         <option value="$PROJECT_DIR$/微博与评论/中国长安网的副本/文本相似度2.txt" />
         <option value="$PROJECT_DIR$/微博与评论/亚布力人民检察的副本/文本相似度2.txt" />
+        <option value="$PROJECT_DIR$/微博评论情感分析.py" />
       </list>
     </option>
   </component>
@@ -375,7 +466,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615112389202</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="删除多余文件1">
+      <created>1615112579083</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1615112579083</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -389,12 +487,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4969325" visible="true" weight="0.20475562" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4969325" visible="true" weight="0.20475562" />
       <window_info id="Structure" order="1" sideWeight="0.5030675" side_tool="true" weight="0.21928665" />
       <window_info id="Favorites" order="2" sideWeight="0.5008375" side_tool="true" weight="0.21928665" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32964823" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993395" weight="0.43342775" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -444,15 +543,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="删除多余文件1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/微博与评论/司法部的副本/文本相似度.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/微博与评论/司法部的副本/情感值.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/微博与评论/山东发布的副本/情感值.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/微博与评论/山东发布的副本/粉丝评论点赞.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -536,9 +626,6 @@
     <entry file="file://$PROJECT_DIR$/微博与评论/上海发布的副本/2539961154.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/text.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/commentV/北京发布/ICdL1BEar.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -595,59 +682,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/调整文本相似度.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="69" column="31" selection-start-line="69" selection-start-column="31" selection-end-line="69" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-            <element signature="e#87#2021#0" />
-            <element signature="e#2043#2778#0" />
-            <element signature="e#2817#8317#0" />
-            <element signature="e#3133#4240#0" />
-            <element signature="e#4360#5615#0" />
-            <element signature="e#5735#6990#0" />
-            <element signature="e#8378#9951#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/微博评论情感分析.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30">
-          <caret line="225" lean-forward="true" selection-start-line="225" selection-end-line="225" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-            <element signature="e#320#6594#0" />
-            <element signature="e#2099#3558#0" />
-            <element signature="e#3679#5144#0" />
-            <element signature="e#5238#6537#0" />
-            <element signature="e#6631#7809#0" />
-            <element signature="e#7840#8185#0" />
-            <element signature="e#8219#8363#0" />
-            <element signature="e#8395#8593#0" />
-            <element signature="e#8615#9030#0" />
-            <element signature="e#9072#9937#0" />
-            <element signature="e#9960#10075#0" />
-            <element signature="e#10124#11092#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/微博与评论/中国森林消防的副本/文本相似度.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="111">
           <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/上课临时.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="38" column="19" lean-forward="true" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
-          <folding>
-            <element signature="e#17#128#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -731,8 +769,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/微博与评论/亚布力人民检察的副本/文本相似度2.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        <state relative-caret-position="259">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/情感识别逐条.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-999">
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/上课临时.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1406">
+          <caret line="38" column="19" lean-forward="true" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/emeotion.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/调整文本相似度.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="69" column="31" selection-start-line="69" selection-start-column="31" selection-end-line="69" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#121#2055#0" />
+            <element signature="e#2077#2806#0" />
+            <element signature="e#2845#8345#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/微博评论情感分析.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

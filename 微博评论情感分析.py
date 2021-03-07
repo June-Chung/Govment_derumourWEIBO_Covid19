@@ -5,9 +5,10 @@ import csv
 import os
 import json
 import re
-APP_ID = '19977603'
-API_KEY = 'V29fofBiufPE1gLaNRjkNEGW'
-SECRET_KEY = 'S7PeE3E9uawi1jVv49AZ6FGmxaUh3x7g'
+#账号与密码已修改，请输入自己的账号密码
+APP_ID = 'zzz'
+API_KEY = 'zzzzz'
+SECRET_KEY = 'zzzz'
 client = AipNlp(APP_ID, API_KEY, SECRET_KEY)
 
 result = {}
