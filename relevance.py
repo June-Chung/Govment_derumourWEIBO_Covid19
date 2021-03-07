@@ -314,7 +314,7 @@ def Relevance_configurationEmotion():
             datasimi = datasimi[1:]
             dataemo = dataemo[1:]
             if len(datasimi)>=1:
-                emovec.extend(getlist(dataemo,-1))
+                emovec.extend(getlist(dataemo,1))
                 simivec.extend(getlist(datasimi,1))
 
     return scipy.stats.spearmanr(emovec,simivec)
@@ -392,6 +392,41 @@ def relevance_FLS_Configuration():
     return scipy.stats.spearmanr(emovec, simivec)
 
 
+
+def detailType_Configurationn():
+    maindir = '微博与评论'
+    filelist = os.listdir(maindir)
+    print(len(filelist))
+    type1_config = []
+    type2_config = []
+    type3_config = []
+
+    for fabu in filelist:
+        includingdir = maindir + '/' + fabu
+        print(includingdir)
+        flist = os.listdir(includingdir)
+        for f in flist:
+            if f == '文本相似度2.txt':
+                # print(includingdir + '/' + f)
+                with open(includingdir + '/' + f, 'r+', encoding='utf-8')as ff:
+                    data = ff.readlines()
+
+                datan = data[1:]
+                if len(datan) > 0:
+                    for i in datan:
+                        if int(i.strip().split(" ")[2]) == 1:
+                            type1_config.append(float(i.strip().split(" ")[1]))
+                        elif int(i.strip().split(" ")[2]) == 2:
+                            type2_config.append(float(i.strip().split(" ")[1]))
+                        elif int(i.strip().split(" ")[2]) == 3:
+                            type3_config.append(float(i.strip().split(" ")[1]))
+
+    res = {"type1的平均认知程度":sum(type1_config)/len(type1_config),
+           "type2的平均认知程度":sum(type2_config)/len(type2_config),
+           "type3的平均认知程度": sum(type3_config)/len(type3_config)}
+    return res
+
+
 if __name__ == '__main__':
     #相关度1：
     # x= relevanceCalcu()
@@ -415,7 +450,7 @@ if __name__ == '__main__':
 
     #情感与认知程度：
     # es = Relevance_configurationEmotion()
-    # print(es)
+    # print("情感与认知程度",es)
 
     #情感与博主的粉丝数微博数和关注数：
     # S = relevance_Emotion_FBF()
@@ -433,5 +468,10 @@ if __name__ == '__main__':
     #     print(k,v)
 
     #点赞转发与认知程度：
-    f = relevance_FLS_Configuration()
-    print("点赞转发与认知程度:   ",f)
+    # f = relevance_FLS_Configuration()
+    # print("点赞转发与认知程度:   ",f)
+
+    #不同辟谣方式的平均认知程度：
+    s = detailType_Configurationn()
+    for k,v in s.items():
+        print(k,v)
