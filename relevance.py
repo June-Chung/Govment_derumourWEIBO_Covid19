@@ -243,7 +243,6 @@ def relevanceLIKEFORWARDCOM():
                 print([int(i.strip().split(" ")[3]) for i in datan])
                 if len(datan) >= 1:
                     for i in datan:
-                        emotionVec.append(float(i.strip().split(" ")[1]))
                         FLSVec.append(int(i.strip().split(" ")[-1]))
                         typeVec.append(int(i.strip().split(" ")[3]))
                         topicVec.append(int(i.strip().split(" ")[4]))
@@ -266,7 +265,7 @@ def relevanceLIKEFORWARDCOM():
                 else:
                     print('xxxxxxxxxxxxx' + includingdir + '/' + f)
     # print(R_pic2simi)
-    res = {"type与微博点赞评论转发数": scipy.stats.spearmanr(emotionVec, FLSVec), "topic与微博点赞评论转发数": scipy.stats.spearmanr(FLSVec, topicVec),
+    res = {"type与微博点赞评论转发数": scipy.stats.spearmanr(FLSVec,typeVec), "topic与微博点赞评论转发数": scipy.stats.spearmanr(FLSVec, topicVec),
            "ate与微博点赞评论转发数": scipy.stats.spearmanr(FLSVec, ateVec), "pic与微博点赞评论转发数": scipy.stats.spearmanr(FLSVec, picVec),
            "origin与微博点赞评论转发数": scipy.stats.spearmanr(FLSVec, originVec),
            "peaktime与微博点赞评论转发数": scipy.stats.spearmanr(FLSVec, peak_timeVec)}
@@ -370,6 +369,28 @@ def relevance_detailType_emotion_FSL():
 def relevance_FLS_Configuration():
     maindir = '微博与评论'
     fabulist = os.listdir(maindir)
+    flsvec = []
+    simivec = []
+    for fabuname in fabulist:
+        similpath = maindir + '/' + fabuname + '/文本相似度.txt'
+        emotionpath = maindir + '/' + fabuname + '/粉丝评论点赞.txt'
+        if os.path.exists(similpath):
+            with open(similpath, 'r+', encoding='utf-8')as f:
+                datasimi = f.readlines()
+            with open(emotionpath, 'r+', encoding='utf-8')as f:
+                dataFLS = f.readlines()
+            datasimi = datasimi[1:]
+            datafls = dataFLS[1:]
+            if len(datasimi) >= 1:
+                flsvec.extend(getlist(datafls, -1))
+                simivec.extend(getlist(datasimi, 1))
+
+    return scipy.stats.spearmanr(flsvec, simivec)
+
+
+def relevance_Emotion_Configuration():
+    maindir = '微博与评论'
+    fabulist = os.listdir(maindir)
 
     R_e2s = 0.0
     filecount = 0
@@ -382,15 +403,33 @@ def relevance_FLS_Configuration():
             with open(similpath, 'r+', encoding='utf-8')as f:
                 datasimi = f.readlines()
             with open(emotionpath, 'r+', encoding='utf-8')as f:
-                dataFLS = f.readlines()
+                dataemo = f.readlines()
             datasimi = datasimi[1:]
-            dataemo = dataFLS[1:]
+            dataemoo = dataemo[1:]
             if len(datasimi) >= 1:
-                emovec.extend(getlist(dataemo, -1))
+                emovec.extend(getlist(dataemoo, 1))
                 simivec.extend(getlist(datasimi, 1))
 
     return scipy.stats.spearmanr(emovec, simivec)
 
+
+def relevance_Emotion_FLS():
+    maindir = '微博与评论'
+    fabulist = os.listdir(maindir)
+
+    emovec = []
+    flsvec = []
+    for fabuname in fabulist:
+        path = maindir + '/' + fabuname + '/粉丝评论点赞.txt'
+        if os.path.exists(path):
+            with open(path, 'r+', encoding='utf-8')as f:
+                datas = f.readlines()
+            datasn = datas[1:]
+            if len(datasn) >= 1:
+                emovec.extend(getlist(datasn, 1))
+                flsvec.extend(getlist(datasn, -1))
+
+    return scipy.stats.spearmanr(emovec, flsvec)
 
 
 def detailType_Configurationn():
@@ -471,7 +510,17 @@ if __name__ == '__main__':
     # f = relevance_FLS_Configuration()
     # print("点赞转发与认知程度:   ",f)
 
+    # 情感与认知程度：
+    # f = relevance_Emotion_Configuration()
+    # print("情感与认知程度:   ",f)
+
+    #情感与评论点赞转发总数
+
     #不同辟谣方式的平均认知程度：
-    s = detailType_Configurationn()
-    for k,v in s.items():
-        print(k,v)
+    # s = detailType_Configurationn()
+    # for k,v in s.items():
+    #     print(k,v)
+
+    #情感与评论点赞转发总数的关系：
+    ref = relevance_Emotion_FLS()
+    print("情感与评论点赞转发总数的关系",ref)
